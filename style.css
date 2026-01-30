@@ -6,7 +6,7 @@
 }
 body{
  /* background-color: #222; */
- background-image: url(/images/cloud.jpg);
+ background-image: url(images/cloud.jpg);
   min-height: 100vh;
   background-size: cover;
   background-position: center;

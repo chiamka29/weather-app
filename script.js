@@ -9,7 +9,7 @@ const iconEl = document.getElementById("weatherIcon");
 async function getWeather(city) {
   if (!city) {
     city = document.getElementById("cityInput").value;
-  } 
+  }  
 
   if (!city) return alert("Enter a city");
 
