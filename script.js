@@ -41,28 +41,28 @@ function updateUI(data) {
   console.log("Weather condition:", condition);
 
   if (condition.includes("cloud")) {
-    iconEl.src = "../images/clouds.png";
+    iconEl.src = "images/clouds.png";
     console.log("Setting icon to clouds.png");
   } else if (condition.includes("rain")) {
-    iconEl.src = "../images/rain.png";
+    iconEl.src = "images/rain.png";
     console.log("Setting icon to rain.png");
   } else if (condition.includes("drizzle")) {
-    iconEl.src = "../images/drizzle.png";
+    iconEl.src = "images/drizzle.png";
     console.log("Setting icon to drizzle.png");
   } else if (condition.includes("clear")) {
-    iconEl.src = "../images/clear.png";
+    iconEl.src = "images/clear.png";
     console.log("Setting icon to clear.png");
   } else if (condition.includes("snow")) {
-    iconEl.src = "../images/snow.png";
+    iconEl.src = "images/snow.png";
     console.log("Setting icon to snow.png");
   } else if (condition.includes("thunder")) {
-    iconEl.src = "../images/rain.png";
+    iconEl.src = "images/rain.png";
     console.log("Setting icon to rain.png (thunder)");
   } else if (condition.includes("mist") || condition.includes("fog") || condition.includes("haze")) {
-    iconEl.src = "../images/mist.png";
+    iconEl.src = "images/mist.png";
     console.log("Setting icon to mist.png (mist/fog/haze)");
   } else {
-    iconEl.src = "../images/clear.png";
+    iconEl.src = "images/clear.png";
     console.log("Setting icon to clear.png (default)");
   }
 }
